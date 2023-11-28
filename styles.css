@@ -30,16 +30,16 @@ h1 {
     display: table-cell;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 100px;
+    gap: 20px;
     justify-content: center;
-    padding: 100px;
+    padding: 20px;
 }
 
 .card {
     width: 211.8px;
     height: 166.2px;
     background-color: #565c6f;
-    border-radius: 10px;
+    border-radius: 100px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     cursor: pointer;
     display: flex;
