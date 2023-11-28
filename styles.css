@@ -27,7 +27,7 @@ h1 {
 }
 
 #game-board {
-    display: table-row-group;
+    display: flex;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
