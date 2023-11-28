@@ -30,9 +30,9 @@ h1 {
     display: table-cell;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    gap: 0px;
+    gap: 100px;
     justify-content: center;
-    padding: 0px;
+    padding: 100px;
 }
 
 .card {
