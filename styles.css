@@ -26,13 +26,19 @@ h1 {
     color: #adbac7;
 }
 
+.game-board {
+    max-width: 600px; /* Adjust the value as per your preference */
+    margin: 0 auto; /* Centers the game board horizontally */
+}
+
+
 #game-board {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
     justify-content: center;
-    padding: 5px;
+    padding: 20px;
 }
 
 .card {
